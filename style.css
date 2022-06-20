@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 500ms ease-in-out;
     color: #fff;
     background: rgb(40, 40, 40);
 }
@@ -16,9 +18,14 @@ body {
 .button {
     width: 100px;
     height: 100px;
-    border: solid black 2px;
+    transition: 1s ease-in-out;
+    border: dotted rgb(0, 0, 0) 5px;
     display: inline-block;
     border-radius: 50%;
+}
+
+.button:active {
+    transform: rotate(360deg);
 }
 
 #green {
